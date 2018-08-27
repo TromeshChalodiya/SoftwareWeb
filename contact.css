@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.outside{
+    width: 1000px;
+    height: auto;
+    border: 2px solid black;
+    margin: 0px auto;
+}
+
+.inside1{
+    width: 1000px;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.outside .inside1 .image1{
+    width: 100px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 5px;  
+    float: left; 
+
+}
+
+.logo{
+    margin-top: 10px;
+    font-size: 40px;
+    line-height: 70px;
+    float: right;
+}
+
+.menu{
+    width: 1000px;
+    height: 40px;
+    background-color: black;
+    margin-left: 0px;
+}
+
+.menu .nav{
+    list-style: none;
+}
+
+.menu .nav li{
+    float: left;
+    line-height: 40px;
+    background-color: darkslategrey;
+    width: 194px;
+    margin-left:5px;
+    text-align: center;
+}
+
+.menu .nav li a{
+    color: azure;
+    text-decoration: none;
+
+}
+
+.menu .nav li:hover{
+    background: grey;
+    font-size: 20px;
+}  
+
+.heading{
+    width:1000px;
+    height: 350px;
+    
+}
+
+.heading h1{
+    color: grey;
+    font-size: 60px;
+    text-align: left;
+    line-height: 120px;
+    margin-left:20px;
+}
+
+.heading hr{
+    height: 5px;
+    color: grey;
+    width: 900px;
+    margin-left: 20px;
+}
+
+.heading p{
+    color: grey;
+    font-size: 22px;  
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top:40px;
+}
+
+
+.outside .contact{
+    height: 600px;
+   
+}
+
+.contact .form{
+    width: 750px;
+    height: 600px;
+    float:left;
+    background:white;
+}
+
+.form .table{
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+.form .title{
+    color: grey;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.table .inp{
+    width: 300px;
+    height: 40px;
+    margin-bottom:5px;
+    font-size: 18px;
+    color: grey;
+    margin-left: 25px;
+}
+
+.table .area{
+    height: 100px;
+}
+
+.table .btn{
+    background: lightgrey;
+    border: 0px;
+    color: black;
+}
+
+.table .btn:hover{
+    background-color:grey;
+}
+
+.address{
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    float: left;
+    color: white;
+    font-size: 25px;
+    margin-left:-2px;
+}
+
+.address .add{
+    margin-left: 10px;
+    margin-top: 300px;
+    color: grey;
+}
+
+.address address{
+    color:grey;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer{
+    width: 1000px;
+    height: 100px;
+    margin: 0px auto;
+    background-color: grey;
+    border-top: 2px solid black;
+}
+
+.footer .copy{
+    line-height: 100px;
+    color:black;
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.footer img{
+    color: white;
+    padding: 2px;
+    float:right;
+    margin-top: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outside{
+    width: 1000px;
+    height: 3010px;
+    border: 2px solid black;
+    margin: 0px auto;
+}
+
+.inside1{
+    width: 1000px;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.outside .inside1 .image1{
+    width: 100px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 5px;  
+    float: left; 
+
+}
+
+.logo{
+    margin-top: 10px;
+    font-size: 40px;
+    line-height: 70px;
+    float:right;
+}
+.logo strong{
+    font-size: 40px;    
+}
+
+.menu{
+    width: 1000px;
+    height: 40px;
+    background-color: black;
+    margin-left: 0px;
+}
+
+.menu .nav{
+    list-style: none;
+}
+
+.menu .nav li{
+    float: left;
+    line-height: 40px;
+    background-color: darkslategrey;
+    width: 194px;
+    margin-left:5px;
+    text-align: center;
+}
+
+.menu .nav li a{
+    color: azure;
+    text-decoration: none;
+
+}
+
+.box3{
+    width: 1000px;
+    height: 300px;  
+}
+
+.menu .nav li:hover{
+    background: grey;
+    font-size: 20px;
+}   
+
+.heading{
+    width:1000px;
+    height: 120px;
+    
+}
+
+.heading h1{
+    color: grey;
+    font-size: 60px;
+    text-align: left;
+    line-height: 120px;
+    margin-left:20px;
+}
+
+.heading hr{
+    height: 5px;
+    color: grey;
+    width: 900px;
+    margin-left: 20px;
+}
+
+.heading p{
+    color: grey;
+    font-size: 22px;  
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top:40px;
+
+
+}
+
+.middle{
+    width: 1000px;
+    height: 500px;
+    float: left;
+    margin-top: 450px;
+    
+}
+
+.middle .services{
+    width:400px;
+    height:500px;
+    float: left;
+    margin-left: 68px;
+}
+
+.middle img{
+    width:400px;
+    height: 400px;
+    border-radius: 13px;
+}
+
+.middle1 .middleleft{
+    width: 500px;
+    height: 1200px;
+    float: left;
+}
+
+.middle1 .middleright{
+    width: 500px;
+    height: 1200px;
+    float: left;    
+}
+
+.middleleft .value{
+    margin-left:15px;
+    font-size: 60px;  
+    color: #464646;
+    word-spacing: 10px;
+    margin-bottom: 30px;    
+}
+
+.middleleft .value2{
+    margin-left:15px;   
+    font-size:30px;
+    color:#464646;
+    margin-bottom: 30px;
+}
+
+.value3 .v4{
+    color:#464646;
+    font-size:20px;
+    margin-left:15px;
+    margin-right:15px;
+    opacity: .5;
+    margin-bottom:10px;
+    margin-top:20px;
+    
+}
+
+.middleleft p{
+    font-size:18px;
+    color: #676767;
+    margin-left: 15px;
+    margin-top:10px;
+    word-spacing: 3px;
+    letter-spacing: 2px;    
+}
+
+.middleright .ri8{
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 70px;
+    height: 1000px;
+    float: left;
+}
+
+
+
+.footer{
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+    float: left;
+}
+
+.footer .foot1{
+    width: 310px;
+    height: 400px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 16px;
+}
+
+
+.foot1 .foot2{
+    list-style: none;
+    margin-left: 50px;
+    color: #676767;
+}
+
+strong{
+    font-size: 25px;
+}
+
+.foot1 .foot2 hr{
+    width:230px;
+    color:lightgrey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.foot1 .foot2 li a{
+    line-height: 50px;
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 20px;
+}

@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.outside{
+    width: 1000px;
+    height: 3300px;
+    border: 2px solid black;
+    margin: 0px auto;
+}
+
+.inside1{
+    width: 1000px;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.outside .inside1 .image1{
+    width: 100px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 5px;  
+    float: left; 
+
+}
+
+.logo{
+    margin-top: 10px;
+    font-size: 40px;
+    line-height: 70px;
+    float: right;
+}
+
+.menu{
+    width: 1000px;
+    height: 40px;
+    background-color: black;
+    margin-left: 0px;
+}
+
+.menu .nav{
+    list-style: none;
+}
+
+.menu .nav li{
+    float: left;
+    line-height: 40px;
+    background-color: darkslategrey;
+    width: 194px;
+    margin-left:5px;
+    text-align: center;
+}
+
+.menu .nav li a{
+    color: azure;
+    text-decoration: none;
+
+}
+
+.menu .nav li:hover{
+    background: grey;
+    font-size: 20px;
+}  
+
+.heading{
+    width:1000px;
+    height: 120px;
+    
+}
+
+.heading h1{
+    color: grey;
+    font-size: 60px;
+    text-align: left;
+    line-height: 120px;
+    margin-left:20px;
+}
+
+.heading hr{
+    height: 5px;
+    color: grey;
+    width: 900px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.heading .finds{
+    width: 1000px;
+    height: 100px;
+}
+
+.heading .finds button{
+    margin-top: 20px;
+    margin-left:20px;
+    background-color:darkcyan;
+    padding: 20px;
+    width:300px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    word-spacing: 2px;
+    float: left;
+}
+
+.heading .finds button:hover{
+    background-color: grey;
+}
+
+.para{
+    width: 1000px;
+    height: 250px;
+    float: left;
+    margin-top: 20px;
+}
+
+.para p{
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    color: grey;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.head2{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.head2 h2{
+    color: #464646;
+    font-size: 60px;
+    margin-left: 20px;
+    line-height: 100px;
+}
+
+.pleft{
+    width: 500px;
+    height: 2100px;
+    float: left;
+}
+
+.pright{
+    width: 500px;
+    height: 2100px;
+    float: left;
+}
+
+.pleft .photo1{
+    width: 400px;
+    height: 400px;
+    background-color: #464646;
+    float: left;
+    margin-left: 50px;
+}
+
+.pleft .photo1 img{
+    width: 400px;
+    height: 400px;
+}
+
+.pleft .photo2{
+    width: 400px;
+    height: 300px;
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pleft .photo2 h5{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height:40px;
+}
+
+.pleft .photo3{
+    width: 400px;
+    height: 500px;
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pleft .photo3 img{
+    width: 400px;
+    height: 500px;
+}
+
+.pleft .photo4{
+    width: 400px;
+    height: 300px;
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pleft .photo4 h2{
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.pleft .photo4 img{
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.pleft .photo5{
+    width: 400px;
+    height: 500px;
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pleft .photo5 img{
+    width: 400px;
+    height: 500px;
+}
+
+.pright .photo1{
+    width: 400px;
+    height: 500px;
+    background-color: #464646;
+    float: left;
+    margin-left: 50px;
+}
+
+.pright .photo1 img{
+    width: 400px;
+    height: 500px;
+}
+
+.pright .photo2{
+    width: 400px;
+    height: 300px;
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pright .photo2 h3{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height:40px;
+    margin-top: 70px;   
+}
+
+
+.pright .photo2 img{
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.pright .photo3{
+    width: 400px;
+    height: 300px;
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pright .photo3 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pright .photo4{
+    width: 400px;
+    height: 500px;
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pright .photo4 h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.pright .photo4 h3{
+    text-align:center;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-top: 15px;
+    line-height: 35px;
+}
+
+.pright .photo5{
+    width: 400px;
+    height: 400px;
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pright .photo5 img{
+    width: 400px;
+    height: 400px;
+}
+
+.before{
+    width: 1000px;
+    height: 350px;
+    float: left;
+    margin-top: 10px;
+}
+
+.before .photo{
+    width: 900px;
+    height:300px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 25px;   
+    background-color: #464646;
+}
+
+.before .photo img{
+    width: 900px;
+    height:300px;
+}
+
+
+
+
